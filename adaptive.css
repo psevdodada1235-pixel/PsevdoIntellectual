@@ -1,0 +1,16 @@
+@import url("header-adaptive.css");
+@import url("main-page-adaptive.css");
+
+@media (max-width: 1615px) {
+    header {
+        padding: 1rem 1rem;
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    footer {
+        padding: 1rem 1rem;
+    }
+}

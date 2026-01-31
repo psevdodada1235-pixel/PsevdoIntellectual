@@ -1,0 +1,50 @@
+footer {
+    background-color: black;
+    display: flex;
+    gap: 4rem;
+
+    padding: 1rem 10rem;
+}
+
+footer .logo-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+footer .logo-wrap img{
+    width: 7rem;
+    height: 7rem;
+}
+
+footer .logo-wrap .social-resourses{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px 20px;
+}
+
+footer .logo-wrap .social-resourses .resource {
+    width: 30px;
+    height: 30px;
+}
+
+footer .logo-wrap .social-resourses .resource img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 4rem;  
+}
+
+.footer-menu > * {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    font-size: 1rem;
+}

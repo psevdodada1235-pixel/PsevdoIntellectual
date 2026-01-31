@@ -1,0 +1,60 @@
+@media (max-width: 1080px) {
+    .main .statistics .card {
+        display: none;
+    }
+
+    .main .statistics {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .statistics img {
+        width: 50%;
+    }
+
+    .main .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem 0rem;
+    }
+
+    .main .cards .card .title {
+        font-weight: 600;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .data-psevdointellectual {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .main .statistics img {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 500px){
+    
+    .main h1 {
+        font-size: 1.5rem;
+    }
+
+    .main .statistics img {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .main .cards .card .title {
+        font-weight: 600;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+}

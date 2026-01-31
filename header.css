@@ -1,0 +1,100 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 1rem 10rem;
+}
+
+header .logo img {
+    width: 5rem;
+    height: 5rem;
+}
+
+header .menu-button{
+    background-color: black;
+    border: rgba(0, 0, 0, 0);
+    padding: 5px;
+}
+
+header .title{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+header .nav-bar > *{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+header .social-resourses{
+    display: flex;
+    flex-direction: row;
+    gap: 0px 20px;
+}
+
+header .social-resourses .resource{
+    width: 30px;
+    height: 30px;
+}
+
+header .social-resourses .resource img{
+    width: 100%;
+    height: 100%;
+}
+
+header .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+header .mobile-menu.active {
+    transform: translateX(0);
+}
+
+header .logo-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0rem;
+}
+
+header .logo-menu div {
+    font-size: 20px;
+}
+
+header .logo-menu img {
+    width: 5rem;
+    height: 5rem;
+}
+
+header .mobile-menu button {
+    padding: 0;
+}

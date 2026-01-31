@@ -1,0 +1,50 @@
+.link {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    text-align: left;
+}
+
+.link:hover{
+    color: green;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button:hover {
+    
+}
+
+.subscribe-button {
+    padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 4vw, 1rem);
+    border: 4px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: black;
+    font-family: inherit;
+    font-size: clamp(16px, 2vw, 33px);
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    display: inline-block;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.subscribe-button:hover {
+    background-color: white;
+    border: 4px solid green;
+    color: green;
+}
+
+.data-psevdointellectual {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    color: green;
+    font-size: clamp(0.5rem, 2.5vw, 2rem);
+}

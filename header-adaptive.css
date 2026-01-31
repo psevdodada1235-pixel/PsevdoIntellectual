@@ -1,0 +1,23 @@
+@media (max-width: 1280px) {
+    header .wrapper .logo .title {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    header .wrapper .nav-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    header .social-resourses {
+        display: none;
+    }
+
+    header .wrapper {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+}

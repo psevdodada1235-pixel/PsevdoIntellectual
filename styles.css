@@ -1,0 +1,43 @@
+@import url("animations.css");
+@import url("administrations.css");
+@import url("header.css");
+@import url("main-page.css");
+@import url("footer.css");
+@import url("adaptive.css");
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: max-content;
+    justify-content: center;
+    overflow-x: hidden; 
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.border-line {
+    border-bottom: green 0.2rem solid;
+}
